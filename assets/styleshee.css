@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family:Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -20,7 +21,7 @@ html {
   padding-top: 75px;
   border-radius: 25px;
   background-color: rgb(49, 48, 48);
-  border: 3px solid rgb(231, 8, 146);
+  /* border: 3px solid rgb(231, 8, 146); */
 }
 
 .calculator-screen{
@@ -32,14 +33,16 @@ html {
   color: black;
   text-align: right;
   padding-right: 10px;
-  border: 3px solid green;
+  /* border: 3px solid rgb(243, 114, 9); */
 }
 
 .calculator-buttons{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 3px solid rgb(218, 21, 119);
+  padding: 15px;
+  padding-bottom: 5px;
+  /* border: 3px solid rgb(248, 224, 12); */
 }
 
 button{
@@ -52,4 +55,28 @@ button{
   color: black;
   margin: 7px;
   padding: 5px;
+  flex: 1 0 18%;
 }
+
+.all-clear{
+  background-color: red;
+  color: white;
+  font-size: 3rem;
+}
+
+button:hover{
+  background-color: rgb(98, 226, 226);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
